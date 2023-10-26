@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(235, 18%, 26%);
+}
+
+.signup{
+    width: 800px;
+    height: 540px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.signup .details{
+    height: 400px;
+    width: 320px;
+    padding: 70px 50px;
+}
+.signup .details h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 20px;
+    word-spacing: 0;
+}
+.signup .details #par{
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.signup .details p{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-size: 14px;
+    font-weight: 500;
+}
+.signup .details p img{
+    margin-right: 15px;
+}
+.signup .details form{
+    margin-top: 5px;
+}
+.signup .details form label{
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-size: 11px;
+    font-weight: bold;
+}
+.signup .details form input{
+    margin-top: 5px;
+    width: 95%;
+    height: 45px;
+    padding-left: 25px;
+    border-radius: 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    cursor: pointer;
+}
+.signup .details form button{
+    margin-top: 20px;
+    width: 103%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid hsl(234, 29%, 20%);
+    text-align: center;
+    cursor: pointer;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.signup .details form button:hover{
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right,rgb(255, 72, 133),hsl(24, 100%, 63%));
+    border: 1px solid hsl(4, 100%, 67%);
+}
+.signup .details form input:focus{
+    outline-color: hsl(231, 7%, 60%);
+}
+.signup .image{
+    position: absolute;
+    left: 45%;
+    bottom: 3%;
+}
+
+.finish{
+    border: 1px solid black;
+    width: 330px;
+    height: 380px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 50px;
+    border-radius: 30px;
+}
+.finish img{
+    margin-bottom: 20px;
+}
+.finish strong{
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-size: 50px;
+    font-weight: bolder;
+    word-spacing: 0;
+    text-align: left;
+}
+.finish p{
+    font-family: 'Roboto', sans-serif;
+    color: hsl(235, 46%, 23%);
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.finish button{
+    margin-top: 30px;
+    width: 103%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid hsl(234, 29%, 20%);
+    text-align: center;
+    cursor: pointer;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.finish button:hover{
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right,rgb(255, 72, 133),hsl(24, 100%, 63%));
+    border: 1px solid hsl(4, 100%, 67%);
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer p .bi-heart-fill{
+    color: red;
+}
+footer p .bi-facebook{
+    color:  #3b5998;
+}
+footer p .bi-instagram{
+    color: #f0007c;
+}
+footer p .bi-linkedin{
+    color: #0A66C2;
+}
+footer p .bi-github{
+    color: white;
+}
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+    margin-right:5px;
+}
